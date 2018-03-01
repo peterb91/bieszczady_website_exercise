@@ -1,0 +1,265 @@
+/* Font upload from file */
+
+@font-face {
+	font-family: comic_bold;
+	src: url(../fonts/GraublauWebBold.eot);
+	src: local("Comic Font Regular"), url(../fonts/GraublauWebBold.ttf) format("truetype");
+}
+@font-face {
+	font-family: comic;
+	src: url(../fonts/Capsuula-webfont.eot);
+	src: local("Comic Font Regular"), url(../fonts/Capsuula-webfont.ttf) format("truetype");
+}
+
+/* styles for main part of the website */
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	background-color: #000;
+}
+
+#wrapper {
+	display: block;
+	position: relative;
+	width: 1080px;
+	height: 1020px;
+	margin: auto;
+	padding: 0;
+	background-color: #1F700F;
+	border: 2px solid #524004;
+}
+
+#content-wrapper {
+	display: block;
+	position: relative;
+	width: 1080px;
+	height: auto;
+	margin: auto;
+	padding: 0;
+}
+
+#content {
+	float: left;
+	width: 600px;
+	height: auto;
+	margin: 0 0 0 70px;
+}
+
+article {
+	padding-right: 20px;
+}
+
+section.news {
+	display: block;
+	position: absolute;
+	width: 600px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+section#contact  {
+	position:absolute;
+	margin-top: 170px;
+}
+li.row-start {
+	display: block;
+	float: left;
+	width: 300px;
+	height: auto;
+	margin: 0 0 0 -42px;
+	padding: 0;
+	text-align: left;
+}
+
+li.row-end {
+	display: block;
+	position: absolute;
+	margin: 0 0 0 258px;
+	width: 300px;
+	height: auto;
+	padding: 0;
+	text-align: left;
+}
+
+li.row-start p, li.row-end p {
+	padding-right: 20px;
+	text-align: left;
+}
+
+li.row-end p {
+	padding-left: 10px;
+	text-align: left;
+}
+h3.offer2 {
+	padding-left: 10px;
+}
+aside {
+	display:block;
+	overflow: hidden;
+	width: 270px;
+	margin: 50px 0 0 0;
+	padding-left: 20px;
+	
+}
+header {
+	position: relative;
+	background-image: url(../img/background.png);
+	background-repeat: repeat-x;
+	height: 230px;
+	margin-top: -22px;
+}
+
+footer {
+	display:block;
+	position: relative;
+	width: 870px;
+	height: 55px;
+	margin: 410px 0 0 70px;
+	padding: 0;
+	background-image: url(../img/background.png);
+	background-repeat: repeat-x;
+	border-radius: 5px;
+}
+
+p.left {
+	display: block;
+	float: left;
+	margin: 17px 0 0 0;
+	padding-left: 10px;
+}
+p {
+	font-family: comic;
+	font-weight: bold;
+}
+
+h1 {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 60px;
+	margin-left: 70px;
+}
+h2 {
+	font-family: comic_bold;
+}
+
+h2.first, h2.second, h2.third {
+	font-family: comic;
+}
+
+.first {
+	margin: 40px 0 0 60px;
+}
+
+.second {
+	margin: 10px 0 0 110px;
+}
+
+.third {
+	margin: 10px 0 0 140px;
+}
+#logo {
+	text-decoration: none;
+	color: #FFF;
+	font: 0/0 a;
+}
+
+/* navigation bar styles */
+
+nav {
+	margin-left: 350px;
+	margin-top: -65px;
+	padding: 0;
+}
+.right {
+	margin: 0 auto 0 250px;
+	width: 870px;
+	position: absolute;
+	
+}
+li.navigation {
+	float: left;
+	margin-top: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	text-align: center;
+	width: 100px;
+}
+
+#big_tab {
+	width: 180px !important;
+}
+
+li.navigation a {
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: normal;
+	font-size: 0.85em;
+	text-align: center;
+	padding: 2px 2px;
+	font-family: Arial, san-serif;
+}
+
+ul li.navigation a:active, ul li.navigation a:hover {
+	background-color: #FFE06B;
+	color: #804d00;
+	border: 1px solid #c17400;
+	border-radius: 5px;
+	padding: 2px 2px;
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+/* Main image styles */
+
+img.main_image {
+	display: block;
+	position: absolute;
+	height: 200px;
+	margin: -160px 0 0 70px;
+	border: 5px solid #FFF;
+}
+figure {
+	display: block;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #FFF;
+	width: 290px;
+	height: 200px;
+	margin: -155px 0 0 655px;
+}
+#yellow_font {
+	color: #F0C247;
+}
+
+/* gallery styles */
+
+.sidebar-gallery {
+	display: block;
+	margin-bottom: 50px;
+	
+}
+li.gallery_list {
+	display: block;
+	position: relative;
+	margin:0 10px 10px -40px;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+li.gallery_list img {
+	float: left;
+	margin: 5px 10px 10px 10px;
+	padding: 3px;
+	background-color: #FFF;
+	list-style-type: none;
+	text-decoration: none;
+	width: 100px;	
+	height: 70px;
+	box-shadow: 3px 3px 5px #404040;
+}
